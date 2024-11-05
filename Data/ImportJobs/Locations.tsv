@@ -1,0 +1,4 @@
+name	address	latitude	longitude	is_pickup_location	is_dropoff_location
+Central Station	Centralplan 1	59.3293	18.0686	true	true
+Airport Terminal	Airport Road 123	59.6497	17.9237	true	false
+Downtown Garage	Main Street 45	59.3350	18.0707	true	true
