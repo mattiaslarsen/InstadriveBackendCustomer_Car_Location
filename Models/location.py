@@ -28,7 +28,7 @@ class Location(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     # Relationships will be added when Car model is implemented
-    # cars = relationship("Car", back_populates="location")
-
+    cars = relationship("Car", back_populates="location")
+    
     def __repr__(self):
         return f"<Location {self.name} ({self.address})>"

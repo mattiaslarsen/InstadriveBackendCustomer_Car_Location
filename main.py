@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 from database import init_db
+from Services.car_router import router as car_router
 from Services.customer_router import router as customer_router
 from Services.location_router import router as location_router  # New import
 import logging
@@ -59,6 +60,13 @@ app.include_router(
     location_router,
     prefix="/api/locations",
     tags=["locations"]
+)
+
+# Add this in the router section:
+app.include_router(
+    car_router,
+    prefix="/api/cars",
+    tags=["cars"]
 )
 
 # Initialize database on startup
