@@ -9,7 +9,7 @@ import uuid
 import csv
 import io
 import json
-from models import Customer
+from Models import Customer
 from database import get_db
 
 router = APIRouter()

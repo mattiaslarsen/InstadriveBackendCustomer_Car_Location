@@ -29,7 +29,7 @@ engine = create_engine(
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def init_db():
-    from models import Base
+    from Models import Base
     Base.metadata.create_all(bind=engine)
     print(f"Database initialized at: {database_url}")
 

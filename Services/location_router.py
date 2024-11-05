@@ -6,7 +6,7 @@ from pydantic import BaseModel, constr, confloat
 from typing import List, Optional, Dict
 from datetime import datetime
 import uuid
-from models import Location
+from Models import Location
 from database import get_db
 import csv
 import io
