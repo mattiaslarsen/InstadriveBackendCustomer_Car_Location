@@ -1,0 +1,11 @@
+name	email	phone	address	preferences
+Anna Andersson	anna.andersson@example.com	+46701234567	Storgatan 1, Stockholm	{"preferred_cars": ["volvo", "tesla"], "notification_preference": "email"}
+Erik Eriksson	erik.eriksson@company.se	+46707654321	Kungsgatan 15, Göteborg	{"preferred_cars": ["bmw"], "notification_preference": "sms"}
+Maria Nilsson	maria.nilsson@gmail.com	+46723456789	Västergatan 8, Malmö	{"preferred_cars": ["audi"], "notification_preference": "both"}
+Johan Johansson	johan.johansson@outlook.com	+46761234567	Södra vägen 22, Uppsala	{}
+Lisa Lindström	lisa.lindstrom@example.net	+46734567890	Östergatan 5, Västerås	{"preferred_cars": ["volkswagen"], "notification_preference": "none"}
+Karl Karlsson	karl.karlsson@firma.se	+46712345678	Norra Allén 12, Örebro	{"preferred_cars": ["volvo"], "notification_preference": "sms"}
+Eva Ekström	eva.ekstrom@example.org	+46745678901	Drottninggatan 45, Linköping	{"preferred_cars": ["mercedes"], "notification_preference": "email"}
+Per Persson	per.persson@company.com	+46756789012	Järnvägsgatan 3, Helsingborg	{"preferred_cars": ["toyota"], "notification_preference": "both"}
+Sofia Svensson	sofia.svensson@example.se	+46767890123	Hamngatan 17, Umeå	{"preferred_cars": ["honda"], "notification_preference": "email"}
+Anders Andersson	anders@example.com	+46778901234	Biblioteksgatan 9, Lund	{"preferred_cars": ["hyundai"], "notification_preference": "sms"}
