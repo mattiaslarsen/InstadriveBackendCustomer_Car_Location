@@ -1,4 +1,4 @@
-# models/location.py
+# Models/location.py
 from sqlalchemy import Column, String, Float, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from datetime import datetime

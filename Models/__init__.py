@@ -1,4 +1,4 @@
-# models/__init__.py
+# Models/__init__.py
 from .base import Base
 from .customer import Customer
 from .location import Location  # New import

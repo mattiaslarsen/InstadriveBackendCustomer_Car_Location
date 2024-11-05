@@ -1,3 +1,4 @@
+# Models/customer.py
 from sqlalchemy import Column, String, DateTime, Boolean, JSON
 from datetime import datetime
 from .base import Base  # Korrekt - relativ import
